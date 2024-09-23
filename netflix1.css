@@ -7,17 +7,14 @@ body{
     background-color: #222;
     color: #fff;
 }
-.box{
+.bannercontent .bannertitle .box{
     background-color: transparent;
     color: white;
-    border: 1px solid white;
-}
-.ali{
-    padding:10px;
-
+    border: 1px solid #a3a3a3;
+    color: #a3a3a3;
 }
 .banner{
-background: linear-gradient(90deg,#181818 10%,hsla(0,0%,8%,.98) 15%,hsla(0,0%,9%,.97) 20%,hsla(0,0%,9%,.95) 25%,hsla(0,0%,9%,.94) 30%,hsla(0,0%,9%,.92) 35%,hsla(0,0%,9%,.9) 40%,hsla(0,0%,9%,.87) 45%,hsla(0,0%,9%,.82) 50%,hsla(0,0%,9%,.75) 55%,hsla(0,0%,9%,.63) 60%,hsla(0,0%,9%,.45) 65%,hsla(0,0%,9%,.27) 70%,hsla(0,0%,9%,.15) 75%,hsla(0,0%,9%,.08) 80%,hsla(0,0%,9%,.03) 95%,hsla(0,0%,9%,0)),url("https://occ-0-3215-3663.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABaJJIdyKMNvEcWhAtI5Xk12MQLY8DLxAkM2k8unVHyRordNL9Jn726cLoEmP_DAn44vwE3_l9dWTpDQTvmzsk6REyj4veXm9bvQ8.jpg?r=e19&quot");
+background: linear-gradient(90deg,#181818 10%,hsla(0,0%,8%,.98) 15%,hsla(0,0%,9%,.97) 20%,hsla(0,0%,9%,.95) 25%,hsla(0,0%,9%,.94) 30%,hsla(0,0%,9%,.92) 35%,hsla(0,0%,9%,.9) 40%,hsla(0,0%,9%,.87) 40%,hsla(0,0%,9%,.82) 45%,hsla(0,0%,9%,.75) 50%,hsla(0,0%,9%,.63) 55%,hsla(0,0%,9%,.45) 60%,hsla(0,0%,9%,.27) 65%,hsla(0,0%,9%,.15) 70%,hsla(0,0%,9%,.08) 75%,hsla(0,0%,9%,.03) 80%,hsla(0,0%,9%,0)),url("https://occ-0-3215-3663.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABaJJIdyKMNvEcWhAtI5Xk12MQLY8DLxAkM2k8unVHyRordNL9Jn726cLoEmP_DAn44vwE3_l9dWTpDQTvmzsk6REyj4veXm9bvQ8.jpg?r=e19&quot");
 background-position: center center;
 background-size: cover;
 background-repeat: no-repeat;
@@ -26,7 +23,44 @@ height: 100vh;
 }
 .bannercontent .bannertitle img{
  object-fit: contain;
- max-width:50%;
-
+ max-width:40%;
+}
+.bannercontent {
+    padding: 8% 5%;
+}
+.bannercontent .bannertitle h1{
+    font-size: 30px;
+    margin-top: 30px;
+    font-weight: 450;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.bannercontent .bannertitle h3{
+    padding: 20px 0px;
+    font-size: 14px;
+    font-weight: 400;
+    color: #a3a3a3;
+    line-height: 18px;
+}
+.bannercontent .bannertitle span{
+    padding: 0  5px;
+    color: #a3a3a3
+}
+p{
+    max-width: 40%;
+    padding: 10px 0px;
+    
 }
 
+nav .logo img{
+    width: 9%;
+    padding: 20px 0px ;
+    margin-left: 30px;
+    position: relative;
+    bottom: 8px;
+}
+
+nav{
+    background-color: black;
+    height:50px;
+    width: 100%;
+}
